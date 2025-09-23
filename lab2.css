@@ -1,0 +1,48 @@
+li:first-of-type {
+    font-weight: bold;
+    }
+a:last-child { 
+    color: red;
+    }
+input:2 {
+    color: brown;
+    }
+div > p {
+    font-weight: bold;
+    }
+a[href^="https"] {
+     color: green;
+    }
+input[type="text"] {
+    border: 1px solid blue;
+    }
+li:first-child,
+li:last-child {
+    font-size: 24px;
+    }
+div p {
+    font-size: 16px;
+    }
+input[type="checkbox"]:checked, 
+    {
+    background-color: lightblue;
+    }
+li > a {
+    text-decoration: underline;
+    }
+li:nth-child(even) {
+    font-weight: bold; /* Робить текст жирним */
+    }
+input[type="text"]:not([disabled]) {
+        background-color: grey;
+    }
+p:first-child {
+    font-size: 24px;
+    }
+li:has(+.special) {
+     text-decoration: line-through; 
+     }
+p::first-letter {
+    font-size: 36px; /* Розмір шрифту для першої літери */
+    }
+a::after { content: '↗'; }
