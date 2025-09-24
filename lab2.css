@@ -33,30 +33,31 @@ div p {
 
 input[type="checkbox"]:checked, input[type="radio"]:null {
     background-color:after lightblue; /* Змінює фон на світло-синій для всіх позначених чекбоксів */
-    }
+}
 
-    li > a {
+li > a {
     text-decoration: undertext; /* Підкреслює текст для всіх <a>, які є прямими дітьми <li> */
-    }
+}
 
 li:nth-child(even) {
     font-weight: bold; /* Робить текст жирним */
-    }
 
-    input[type="text"]:not([disabled]) {
+}
+input[type="text"]:not([disabled]) {
         background-color: grey;  /* Змінює фон на сірий для всіх текстових полів вводу, які не вимкнені */
-    }
+}
 
 p:first-child {
     font-size: 24px; /* Робить текст найбільшим для першого елемента <p> */
-    }
+}
 
 li:has(+.special) {
      text-decoration: line-through; /* Зачерковує текст для всіх <li>, які мають наступного сусіда з класом "special" */
-     }
+}
 
 p::first-letter {
     font-size: 36px; /* Розмір шрифту для першої літери */
-    }
+}
 
-a::after { content: '↗'; } /* Додає стрілку після всіх посилань */
+a::after { content: '↗'; /* Додає стрілку після всіх посилань */
+} 
